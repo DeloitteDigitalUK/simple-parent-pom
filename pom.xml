@@ -25,6 +25,10 @@
     <version>1.0.0-SNAPSHOT</version>
     <packaging>pom</packaging>
 
+    <name>Deloitte Digital UK simple parent POM</name>
+    <description>A simple parent POM for Deloitte Digital UK open source projects</description>
+    <url>https://github.com/DeloitteDigitalUK/simple-parent-pom</url>
+
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
@@ -67,4 +71,26 @@
             </plugins>
         </pluginManagement>
     </build>
+
+    <licenses>
+        <license>
+            <name>The Apache License, Version 2.0</name>
+            <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+        </license>
+    </licenses>
+
+    <developers>
+        <developer>
+            <name>Richard North</name>
+            <email>rnorth@deloitte.co.uk</email>
+            <organization>Deloitte Digital</organization>
+            <organizationUrl>http://www.deloittedigital.co.uk</organizationUrl>
+        </developer>
+    </developers>
+
+    <scm>
+        <connection>scm:git:git@github.com:DeloitteDigitalUK/simple-parent-pom.git</connection>
+        <developerConnection>scm:git:git@github.com:DeloitteDigitalUK/simple-parent-pom.git</developerConnection>
+        <url>git@github.com:DeloitteDigitalUK/simple-parent-pom.git</url>
+    </scm>
 </project>
