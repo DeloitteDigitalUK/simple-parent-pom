@@ -97,7 +97,7 @@
     <repository>
         <id>bintray-deloittedigitaluk-maven</id>
         <name>deloittedigitaluk-maven</name>
-        <url>https://api.bintray.com/maven/deloittedigitaluk/maven/simple-parent-pom/;publish=1</url>
+        <url>https://api.bintray.com/maven/deloittedigitaluk/maven/simple-parent-pom</url>
     </repository>
 </distributionManagement>
 </project>
